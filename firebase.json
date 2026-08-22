@@ -1,0 +1,38 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "digital-heist-f2342",
+          "appId": "1:186873979676:android:79600c58bbe33e62a5d0d9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "digital-heist-f2342",
+          "configurations": {
+            "android": "1:186873979676:android:79600c58bbe33e62a5d0d9",
+            "ios": "1:186873979676:ios:7bf27b6943c004e2a5d0d9",
+            "web": "1:186873979676:web:26bd33948d5172cea5d0d9",
+            "windows": "1:186873979676:web:045f11f074df357ba5d0d9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
