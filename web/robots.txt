@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /firebase-messaging-sw.js
+
+Sitemap: https://digital-heist-f2342.web.app/sitemap.xml
